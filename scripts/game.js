@@ -57,14 +57,3 @@ function isWin() {
     return false
 
 }
-
-function restart() {
-    board = ['','','','','','','','','',];
-    playerTime = 0;
-    symbols = ['o', 'x'];
-    gameOver = false
-    turn.innerHTML = ""
-
-    document.querySelectorAll(".square").forEach(square => square.innerHTML = "")
-
-}
